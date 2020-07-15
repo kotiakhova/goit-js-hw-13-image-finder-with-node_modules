@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  /*
+   * CSS image reference example.
+   */
+  background-image: url('./images/bg-pattern.png');
+}
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+.seatch-input {
+  display: inline-block;
+  height: 30px;
+  width: 400px;
+  font-size: 25px;
+}
+.search-form {
+  display: flex;
+  /* height: 40px; */
+}
+.gallery {
+  padding: 0;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+
+}
+.gallery-item {
+  width: 200px;
+}
+.btn-load-more {
+  width: 100px;
+  height: 30px;
+}
+.image-writing-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.image-writing-item {
+  width: 50%;
+  position: relative;
+}
+.image-writing-text {
+  padding-left: 20px ;
+}
+.material-icons {
+  position: absolute;
+}
+.material-icons-likes {
+  top: 16px;
+  left: 0px;
+  font-size: 18px;
+  padding-right: 5px ;
+}
+.material-icons-views {
+  top: 16px;
+  font-size: 19px;
+  left: 0;
+  padding-right: 2px ;
+}
+.material-icons-comments {
+  top: 16px;
+  font-size: 18px;
+  left: 0;
+  padding-right: 2px ;
+}
+.material-icons-downloads {
+  top: 17px;
+  font-size: 18px;
+  left: 0;
+  padding-right: 2px ;
+
+}

@@ -1,0 +1,30 @@
+{{#each this}}
+<li class="gallery-item">
+    <img src="{{webformatURL}}" data-source="{{largeImageURL}}" width="200px" height="130px">
+    <ul class="image-writing-block">
+        <li class="image-writing-item">
+            <i class="material-icons material-icons-likes">favorite</i>
+            <p class="image-writing-text">{{likes}}</p>
+        </li>
+        <li class="image-writing-item">
+            <i class="material-icons material-icons-views">visibility</i>
+            <p class="image-writing-text">{{views}}</p>
+            
+        </li>
+        <li class="image-writing-item">
+            <i class="material-icons material-icons-comments">comments</i>
+            <p class="image-writing-text">{{comments}}</p>
+            
+        </li>
+        <li class="image-writing-item">
+                <i class="material-icons material-icons-downloads">get_app</i>
+                <p class="image-writing-text">
+        {{downloads}}</p>
+            
+        </li>
+
+
+
+    </ul>
+</li>
+{{/each}}
